@@ -15,5 +15,6 @@ university.AddStudent(Student("Maria Perechrest", knowledge_low_level))
 university.AddStudent(s)
 
 internship = Internship("Interlink")
+internship.InvitationsToInternship(university)
 print("List of internship's students:")
 print(internship.GetStudents())
