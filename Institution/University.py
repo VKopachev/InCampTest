@@ -2,7 +2,8 @@ from Person import Student
 
 class University:
     def __init__(self, name:str):
-        pass
+        self.name = name
+        self.students:Student = []
     
     def AddStudent(self, student:Student):
-        pass
+        self.students.append(student)
